@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 80px 10px;
+    transition: 0.4s;
+    position:relative;
+    width: 100%;
+    top:0;
+
+  }
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 39px;
+}
+#navbar a:hover {
+    background-color: rgba(71, 139, 241, 0.4);
+    color: white;
+    transition: 0.25s;
+}
