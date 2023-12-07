@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-color: rgb(180, 180, 180);
+  color: rgb(0, 0, 0);
+}
+
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 20px 2.5px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+  padding: 15px 110px;
+  text-decoration: none;
+  font-size: 13px;
+  color: lightblue;
+}
+
+#navbar a:hover {
+  background-color: rgba(71, 139, 241, 0.4);
+  color: white;
+  transition: 0.25s;
+}
+
+#navbar a:target {
+  border: 5px;
+}
+
+
+.accueil {
+  padding: 19.45em 10em 25em;
+
+}
+
+.a_propos {
+  padding: 29em 0em 27.3em;
+  background-color: #585858;
+  color:rgb(196, 196, 196);
+}
+
+.competences {
+  padding: 26em 0em 33.6em;
+
+}
+
+.experiences {
+  padding: 26em 0em 33.6em;
+  background-color: #585858;
+}
+
+.formation {
+  padding: 26em 0em 33.6em;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.texte-center {
+  text-align: center;
+}
+
+.salutation {
+  font-size: 2em;
+}
+
+.prenom-nom {
+  font-size: 1.5em;
+}
+
+.Image {
+  max-width: 10%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.accroche {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.presentation {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+  background-color: #0077b5;
+  margin: 0 5px;
+  border-radius: 50%;
+
+}
+
