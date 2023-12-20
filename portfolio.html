@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Portfolio - Noah Noblet</title>
 </head>
 <body>
     <nav id="navbar">
-        <a href="#accueil" target="accueil" class="active">Accueil</a>
+        <a href="#accueil" class="active">Accueil</a>
         <a href="#a_propos">À propos</a>
-        <a href="#competences">Mes compétences</a>
-        <a href="#experiences">Mes expériences</a>
-        <a href="#formation">Mon parcours</a>
-        <a href="#contacts">Comment me contacter ?</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#formation">Formation</a>
+        <a href="#contacts">Contact</a>
     </nav>
 
-    <div id="accueil" class="accueil">
+    <div id="accueil" class="section accueil">
         <div class="texte-center">
             <div class="salutation">Bonjour, et bienvenue sur mon Portfolio !</div>
             <div class="prenom-nom">Moi, c'est Noah Noblet !</div>
@@ -25,39 +24,64 @@
         </div>
     </div>
 
-    <div id="a_propos" class="a_propos">
+    <div id="a_propos" class="section a_propos">
+        <div class="accroche"></div>
         <p class="presentation">
             Enthousiaste et passionné par le domaine de la programmation, je suis un étudiant déterminé à exploiter chaque opportunité pour acquérir des connaissances et développer mes compétences.
         </p>
     </div>
 
-    <div id="competences" class="competences">
-        <div></div>
-            <div></div>
-        <div></div>
+    <div id="competences" class="section competences">
+        <h1>Mes compétences</h1>
+        <div class="dev">
+            <div class="comp" data-progress="90">
+                <div class="nom-comp">HTML</div>
+                <div class="barre-progres"></div>
+            </div>
+            <div class="comp" data-progress="70">
+                <div class="nom-comp">CSS</div>
+                <div class="barre-progres"></div>
+            </div>
+            <div class="comp" data-progress="20">
+                <div class="nom-comp">PHP</div>
+                <div class="barre-progres"></div>
+            </div>
+            <div class="comp" data-progress="10">
+                <div class="nom-comp">JavaScript</div>
+                <div class="barre-progres"></div>
+            </div>
+        </div>
+        <div class="lang">
+            <div class="comp" data-progress="70">
+                <div class="nom-comp">Anglais</div>
+                <div class="barre-progres"></div>
+            </div>  
+        </div>
     </div>
     
-    <div id="experiences" class="experiences">
-        <div></div>
-            <div></div>
-        <div></div>
+    <div id="experiences" class="section experiences">
+        <h1>Mes expériences</h1>
+        <div class="experience-item">
+            <h2>Stage en développement</h2>
+            <p>À Venir - 13 Mai 2024 - 14 Juin 2024</p>
+            <p>Travaux réalisés : Inconnus pour le moment.</p>
+        </div>
     </div>
 
-    <div id="formation" class="formation">
-        <div></div>
-            <div></div>
-        <div></div>
-    </div>
-
-    <div id="contact" class="contact">
-        <div></div>
-            <div></div>
-        <div></div>
+    <div id="formation" class="section formation">
+        <h1>Mes diplômes</h1>
+        <div class="education-item">
+            <h2>Baccalauréat</h2>
+            <p>Lycée Sainte-Ursule - Caen</p>
+        </div>
+        <div class="education-item">
+            <h2>Brevet des collèges</h2>
+            <p>Collège Jacques Prevert</p>
+        </div>
     </div>
     <footer>
         <div id="contacts" class="reseaux">
             <div class="linkedin"></div>
-
         </div>
     </footer>
 </body>
