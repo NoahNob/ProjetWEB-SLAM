@@ -1,0 +1,25 @@
+navbar:
+  - nom: accueil
+  - nom: a_propos
+  - nom: competences
+  - nom: experiences
+  - nom: formation
+  - nom: contacts
+
+accueil:
+ - nom: Accueil
+
+a_propos:
+ - nom: À propos
+
+competences:
+ - nom: Compétences
+
+experiences:
+ - nom: Expériences
+
+formation:
+ - nom: Formation
+
+contacts:
+ - nom: Contacts

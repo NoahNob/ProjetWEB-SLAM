@@ -134,6 +134,10 @@ h1 {
   --progress: 70%;
 }
 
+.comp[data-progress="100"] .barre-progres {
+  --progress: 100%;
+}
+
 .Image {
   width: 10%;
   height: auto;
