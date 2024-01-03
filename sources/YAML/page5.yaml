@@ -1,6 +1,6 @@
-Mes diplômes:
+diplomes:
   - nom : BTS SIO Option SLAM
-    texte: CaenSup - Caen (En cours)
+    p: CaenSup - Caen (En cours)
   - nom : Baccalauréat
     p: Lycée Sainte-Ursule - Caen
   - nom : Brevet des collèges

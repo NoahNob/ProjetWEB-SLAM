@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+#navbar {
+  background-color: #444;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+  transition: 0.25s;
+}
+
+#navbar a:hover {
+  background-color: #666;
+}
+
+.section {
+  padding: 3em 1em;
+  text-align: center;
+  margin-bottom: 2em;
+  background-color: #ddd;
+}
+
+.accueil {
+  color: #333;
+}
+
+.a_propos {
+  background-color: #bbb;
+  color: #333;
+}
+
+.competences {
+  background-color: #999;
+  color: #fff;
+}
+
+.experiences {
+  background-color: #888;
+  color: #fff;
+}
+
+.formation {
+  background-color: #777;
+  color: #fff;
+}
+
+.dev {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lang .comp {
+  margin: 0.5em;
+  padding: 0.5em 1em;
+}
+
+.comp {
+  position: relative;
+  background-color: #ccc;
+  color: #333;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nom-comp {
+  margin-bottom: 0.5em;
+}
+
+.barre-progres {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: var(--progress);
+  background-color: #15ff00;
+  border-radius: 0 0 5px 5px;
+  transition: width 0.5s;
+}
+
+.comp[data-progress="90"] .barre-progres {
+  --progress: 90%;
+}
+
+.comp[data-progress="70"] .barre-progres {
+  --progress: 70%;
+}
+
+.comp[data-progress="20"] .barre-progres {
+  --progress: 20%;
+}
+
+.comp[data-progress="10"] .barre-progres {
+  --progress: 10%;
+}
+
+.comp[data-progress="70"] .barre-progres {
+  --progress: 70%;
+}
+
+.comp[data-progress="100"] .barre-progres {
+  --progress: 100%;
+}
+
+.Image {
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navbar a {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  .dev {
+    flex-direction: column;
+  }
+
+  .comp {
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .comp {
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+  }
+}
+
+form {
+    display: inline-block;
+}

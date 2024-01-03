@@ -1,14 +1,14 @@
-Mes compétences:
+Mes compétences:
   - nom: HTML
-  data: 90
+    data: 90
   - nom: CSS
-  data: 70
+    data: 70
   - nom: PhP
-  data: 20
+    data: 20
   - nom: JavaScript
-  data: 10
+    data: 10
 Développement:
   - nom: Anglais
-  data: 70
+    data: 70
   - nom: Français
-  data: 100
+    data: 100
